@@ -1,0 +1,71 @@
+PODS:
+  - CJAMacros (2.1.3)
+  - DSFavIconManager (0.10.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - JDFTooltips (1.3)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - "MWFeedParser/NSDate+InternetDateTime (= 1.0.1)"
+    - "MWFeedParser/NSString+HTML (= 1.0.1)"
+  - MWFeedParser/FeedParser (1.0.1):
+    - "MWFeedParser/NSDate+InternetDateTime"
+    - "MWFeedParser/NSString+HTML"
+  - "MWFeedParser/NSDate+InternetDateTime (1.0.1)"
+  - "MWFeedParser/NSString+HTML (1.0.1)"
+  - SVProgressHUD (2.2.5)
+  - TDBadgedCell (2.6)
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - CJAMacros
+  - DSFavIconManager
+  - FMDB
+  - FontAwesomeKit/FontAwesome
+  - JDFTooltips
+  - KissXML
+  - MWFeedParser
+  - SVProgressHUD
+  - TDBadgedCell (~> 2.6)
+  - TUSafariActivity
+
+SPEC REPOS:
+  trunk:
+    - CJAMacros
+    - DSFavIconManager
+    - FMDB
+    - FontAwesomeKit
+    - JDFTooltips
+    - KissXML
+    - MWFeedParser
+    - SVProgressHUD
+    - TDBadgedCell
+    - TUSafariActivity
+
+SPEC CHECKSUMS:
+  CJAMacros: 01775e631d55f3ffc8524483e27fbdd6c9fd8a44
+  DSFavIconManager: 2584af0b04c20e04aeb04e38ebf23b996eaee1cc
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  JDFTooltips: 24d6077730d28b8374c2ef03587044ecf9db19c7
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TDBadgedCell: 522ef0fe70221a031eff8d424f5d57379f652088
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+PODFILE CHECKSUM: 8d414c8efc7a0e07635828e6349906def806b572
+
+COCOAPODS: 1.9.1

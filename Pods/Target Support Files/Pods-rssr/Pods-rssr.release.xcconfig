@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CJAMacros" "${PODS_ROOT}/Headers/Public/DSFavIconManager" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FontAwesomeKit" "${PODS_ROOT}/Headers/Public/JDFTooltips" "${PODS_ROOT}/Headers/Public/KissXML" "${PODS_ROOT}/Headers/Public/MWFeedParser" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/TDBadgedCell" "${PODS_ROOT}/Headers/Public/TUSafariActivity" $(SDKROOT)/usr/include/libxml2
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DSFavIconManager" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/FontAwesomeKit" "${PODS_CONFIGURATION_BUILD_DIR}/JDFTooltips" "${PODS_CONFIGURATION_BUILD_DIR}/KissXML" "${PODS_CONFIGURATION_BUILD_DIR}/MWFeedParser" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/TDBadgedCell" "${PODS_CONFIGURATION_BUILD_DIR}/TUSafariActivity"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DSFavIconManager" -l"FMDB" -l"FontAwesomeKit" -l"JDFTooltips" -l"KissXML" -l"MWFeedParser" -l"SVProgressHUD" -l"TDBadgedCell" -l"TUSafariActivity" -l"sqlite3" -l"xml2" -framework "CoreText" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
