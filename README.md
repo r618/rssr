@@ -4,4 +4,4 @@ Had few unique featuers such as limiting the amount of articles per feed constan
 
 Has few bugs still probably and could be made more performant at places, esp. database batch pprocessing related tasks (e.g. adding many feeds at once from import)
 
-Use [NetNewsWire](http://netnewswireapp.com/ios/) nowadays or something
+Use [NetNewsWire](https://ranchero.com/netnewswire/) nowadays or something
